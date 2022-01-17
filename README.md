@@ -44,6 +44,7 @@ Note: There may be other ones and some of the ones listed here might become depr
   <li><b>.toUpperCase():</b> returns the uppercase string value.</li>
   <li><b>.toString(x)</b> returns a string representing the specified object.</li>
 </ul>
+
 ---
 
 <h2>Array</h2>
@@ -69,24 +70,75 @@ Note: There may be other ones and some of the ones listed here might become depr
   <li><b>.toString():</b> returns a string representation of the array.</li>
   <li><b>.unshift(element(s)):</b> adds 1+ element(s) to the beginning of the array and returns its new length.</li>
 </ul>
+
 ---
 
 <h2>Date</h2>
  <ul>
+  <li><b>.Date():</b> </li>
+  <li><b>.new Date() or .new Date(value/dateStr/dateObj/year,month,day,hr,min,sec,ms):</b> </li>
+  <li><b>.getDate():</b> </li>
+  <li><b>.getDay():</b> </li>
+  <li><b>.getFullYear():</b> </li>
+  <li><b>.getHours():</b> </li>
+  <li><b>.getMilliseconds():</b> </li>
+  <li><b>.getMinutes():</b> </li>
+  <li><b>.getMonth():</b> </li>
+  <li><b>.getSeconds():</b> </li>
+  <li><b>.getTime():</b> </li>
+  <li><b>.getTimezoneOffset():</b> </li>
+  <li><b>.getUTCDate():</b> </li>
+  <li><b>.getUTCDay():</b> </li>
+  <li><b>.getUTCFullYear():</b> </li>
   <li><b></b> </li>
   <li><b></b> </li>
+  <li><b></b> </li>
+  <li><b></b> </li>
+  <li><b></b> </li>
+  <li><b>.setDate(dayValue):</b> </li>
+  <li><b>.setFullYear(yearValue,monthValue,dateValue):</b> </li>
+  <li><b>.setHours(hoursValue,minutesValue,secondsValue,msValue):</b> </li>
+  <li><b>.setMilliseconds(millisecondsValue):</b> </li>
+  <li><b>.setUTCDate(dayValue):</b> </li>
+  <li><b>.toDateString():</b> </li>
+  <li><b>.toLocaleDateString(locales,options):</b> </li>
+  <li><b>.toLocaleString(locales,options):</b> </li>
+  <li><b>.toLocaleTimeString(locales,options):</b> </li>
+  <li><b>.toString():</b> </li>
+  <li><b>.toTimeString():</b> </li>
+  <li><b>.toUTCString():</b> </li>
+  <li><b>.valueOf():</b> </li>
 </ul>
+
 ---
 
 <h2>Math</h2>
  <ul>
-  <li><b></b> </li>
-  <li><b></b> </li>
+  <li><b>.abs(x):</b> </li>
+  <li><b>.acos(x):</b> </li>
+  <li><b>.asin(x):</b> </li>
+  <li><b>.atan(x):</b> </li>
+  <li><b>.atan2(y,x):</b> </li>
+  <li><b>.ceil(x):</b> </li>
+  <li><b>.cos(x):</b> </li>
+  <li><b>.exp(x):</b> </li>
+  <li><b>.floor(x):</b> </li>
+  <li><b>.log(x):</b> </li>
+  <li><b>.max(value(s)):</b> </li>
+  <li><b>.min(value(s)):</b> </li>
+  <li><b>.pow(base,exponent):</b> </li>
+  <li><b>.random():</b> </li>
+  <li><b>.round(x):</b> </li>
+  <li><b>.sin(x):</b> </li>
+  <li><b>.sqrt(x):</b> </li>
+  <li><b>.tan(x):</b> </li>
 </ul>
+
 ---
 
 <h2>Regexp</h2>
 <ul>
-  <li><b></b> </li>
-  <li><b></b> </li>
+  <li><b>.exec(string):</b> executes a search for a match in a specified string. Returns a result array or null.</li>
+  <li><b>.test(string):</b> executes a search for a match between a regexp and a specified string. Returns a boolean.</li>
+  <li><b>.toString():</b> returns a string representing the regexp.</li>
 </ul>
