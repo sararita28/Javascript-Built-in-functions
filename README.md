@@ -75,39 +75,49 @@ Note: There may be other ones and some of the ones listed here might become depr
 
 <h2>Date</h2>
  <ul>
-  <li><b>.Date():</b> </li>
-  <li><b>.new Date() or .new Date(value/dateStr/dateObj/year,month,day,hr,min,sec,ms):</b> </li>
-  <li><b>.getDate():</b> </li>
-  <li><b>.getDay():</b> </li>
-  <li><b>.getFullYear():</b> </li>
-  <li><b>.getHours():</b> </li>
-  <li><b>.getMilliseconds():</b> </li>
-  <li><b>.getMinutes():</b> </li>
-  <li><b>.getMonth():</b> </li>
-  <li><b>.getSeconds():</b> </li>
-  <li><b>.getTime():</b> </li>
-  <li><b>.getTimezoneOffset():</b> </li>
-  <li><b>.getUTCDate():</b> </li>
-  <li><b>.getUTCDay():</b> </li>
-  <li><b>.getUTCFullYear():</b> </li>
+  <li><b>.Date():</b> returns today's date and time.</li>
+  <li><b>.new Date() or .new Date(value/dateStr/dateObj/year,month,day,hr,min,sec,ms):</b> returns a date depending on the arguments provided.</li>
+  <li><b>.getDate():</b> returns the day of the month for the specified date according to local time.</li>
+  <li><b>.getDay():</b> returns the day of the week for the specified date according to local time.</li>
+  <li><b>.getFullYear():</b> returns the year for the specified date according to local time.</li>
+  <li><b>.getHours():</b> returns the hours for the specified date according to local time.</li>
+  <li><b>.getMilliseconds():</b> returns the milliseconds for the specified date according to local time.</li>
+  <li><b>.getMinutes():</b> returns the minutes for the specified date according to local time.</li>
+  <li><b>.getMonth():</b> returns the month for the specified date according to local time.</li>
+  <li><b>.getSeconds():</b> returns the seconds for the specified date according to local time.</li>
+  <li><b>.getTime():</b> returns the number of milliseconds since the Unix Epoch.</li>
+  <li><b>.getTimezoneOffset():</b> returns the difference in minutes between a UTC timezone and the local timezone.</li>
+  <li><b>.getUTCDate():</b> returns the day of the month (from 1 to 31) in the specified date according to universal time.</li>
+  <li><b>.getUTCDay():</b> returns the day of the week in the specified date according to universal time.</li>
+  <li><b>.getUTCFullYear():</b> returns the year in the specified date according to universal time.</li>
   <li><b></b> </li>
   <li><b></b> </li>
   <li><b></b> </li>
   <li><b></b> </li>
   <li><b></b> </li>
-  <li><b>.setDate(dayValue):</b> </li>
-  <li><b>.setFullYear(yearValue,monthValue,dateValue):</b> </li>
-  <li><b>.setHours(hoursValue,minutesValue,secondsValue,msValue):</b> </li>
-  <li><b>.setMilliseconds(millisecondsValue):</b> </li>
-  <li><b>.setUTCDate(dayValue):</b> </li>
-  <li><b>.toDateString():</b> </li>
-  <li><b>.toLocaleDateString(locales,options):</b> </li>
-  <li><b>.toLocaleString(locales,options):</b> </li>
-  <li><b>.toLocaleTimeString(locales,options):</b> </li>
-  <li><b>.toString():</b> </li>
-  <li><b>.toTimeString():</b> </li>
-  <li><b>.toUTCString():</b> </li>
-  <li><b>.valueOf():</b> </li>
+  <li><b>.setDate(dayValue):</b> changes the day of the month of a given date instance based on local time.</li>
+  <li><b>.setFullYear(yearValue,monthValue,dateValue):</b> sets the full year for a specified date according to local time. Returns new timestamp.</li>
+  <li><b>.setHours(hoursValue,minutesValue,secondsValue,msValue):</b> sets the hours for a specified date according to local time. Returns the number of milliseconds since Jan 1st 1970 UTC till the represented date.</li>
+  <li><b>.setMilliseconds(millisecondsValue):</b> sets the milliseconds for a specified date according to local time.</li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.setUTCDate(dayValue):</b> changes the day of the month of a date based on UTC.</li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.:</b> </li>
+  <li><b>.toDateString():</b> returns the date portion of a date object in the follong format (Example): Thu Jan 01 1970.</li>
+  <li><b>.toLocaleDateString(locales,options):</b> returns a string with a language sensitive representation of the date portion of the date in the user's timezone.</li>
+  <li><b>.toLocaleString(locales,options):</b> returns a string with language sensitive representation.</li>
+  <li><b>.toLocaleTimeString(locales,options):</b> returns a string with language sensitive representation of the time portion of the date.</li>
+  <li><b>.toString():</b> returns a string representing the specified date object.</li>
+  <li><b>.toTimeString():</b> returns the time portion of a date object in human readable form in English.</li>
+  <li><b>.toUTCString():</b> converts a date to a string using UTC timezone.</li>
+  <li><b>.valueOf():</b> returns the primitive value of a date object.</li>
 </ul>
 
 ---
