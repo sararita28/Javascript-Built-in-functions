@@ -1,5 +1,11 @@
+<h1>How to use this rep</h1>
 This is a list of Javascript built-in functions/methods. 
 Note: There may be other ones and some of the ones listed here might become deprecated so please do your own due diligence.
+
+
+---
+
+
 
 <h2>Number</h2>
 <ul>
@@ -90,26 +96,26 @@ Note: There may be other ones and some of the ones listed here might become depr
   <li><b>.getUTCDate():</b> returns the day of the month (from 1 to 31) in the specified date according to universal time.</li>
   <li><b>.getUTCDay():</b> returns the day of the week in the specified date according to universal time.</li>
   <li><b>.getUTCFullYear():</b> returns the year in the specified date according to universal time.</li>
-  <li><b></b> </li>
-  <li><b></b> </li>
-  <li><b></b> </li>
-  <li><b></b> </li>
-  <li><b></b> </li>
+  <li><b>.getUTCHours():</b> returns the hours in the specified date according to universal time.</li>
+  <li><b>.getUTCMilliseconds():</b> returns the milliseconds portion of the time object's value according to universal time.</li>
+  <li><b>.getUTCMinutes():</b> returns the minutes in the specified date according to universal time.</li>
+  <li><b>.getUTCMonth():</b> returns the month of the specified date according to universal time, as a zero-based value (where zero indicates the first month of the year).</li>
+  <li><b>.getUTCSeconds():</b> returns the seconds in the specified date according to universal time.</li> 
   <li><b>.setDate(dayValue):</b> changes the day of the month of a given date instance based on local time.</li>
   <li><b>.setFullYear(yearValue,monthValue,dateValue):</b> sets the full year for a specified date according to local time. Returns new timestamp.</li>
   <li><b>.setHours(hoursValue,minutesValue,secondsValue,msValue):</b> sets the hours for a specified date according to local time. Returns the number of milliseconds since Jan 1st 1970 UTC till the represented date.</li>
   <li><b>.setMilliseconds(millisecondsValue):</b> sets the milliseconds for a specified date according to local time.</li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
+  <li><b>.setMinutes(minutesValue, secondsValue, msValue):</b> sets the minutes for a specified date according to local time.</li>
+  <li><b>.setMonth(monthValue, dayValue):</b> sets the month for a specified date according to the currently set year.</li>
+  <li><b>.setSeconds(secondsValue, msValue):</b> sets the seconds for a specified date according to local time.</li>
+  <li><b>.setTime(timeValue):</b> sets the Date object to the time represented by a number of milliseconds since January 1, 1970, 00:00:00 UTC.</li>
   <li><b>.setUTCDate(dayValue):</b> changes the day of the month of a date based on UTC.</li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
-  <li><b>.:</b> </li>
+  <li><b>.setUTCFullYear(yearValue, monthValue, dayValue):</b> sets the full year for a specified date according to universal time.</li>
+  <li><b>.setUTCHours(hoursValue, minutesValue, secondsValue, msValue):</b> sets the hour for a specified date according to universal time, and returns the number of milliseconds since  January 1, 1970 00:00:00 UTC until the time represented by the updated Date instance.</li>
+  <li><b>.setUTCMilliseconds(millisecondsValue):</b> sets the milliseconds for a specified date according to universal time.</li>
+  <li><b>.setUTCMinutes(minutesValue, secondsValue, msValue):</b> sets the minutes for a specified date according to universal time.</li>
+  <li><b>.setUTCMonth(monthValue, dayValue):</b> sets the month for a specified date according to universal time.</li>
+  <li><b>.setUTCSeconds(secondsValue, msValue):</b> sets the seconds for a specified date according to universal time.</li>
   <li><b>.toDateString():</b> returns the date portion of a date object in the follong format (Example): Thu Jan 01 1970.</li>
   <li><b>.toLocaleDateString(locales,options):</b> returns a string with a language sensitive representation of the date portion of the date in the user's timezone.</li>
   <li><b>.toLocaleString(locales,options):</b> returns a string with language sensitive representation.</li>
@@ -124,24 +130,24 @@ Note: There may be other ones and some of the ones listed here might become depr
 
 <h2>Math</h2>
  <ul>
-  <li><b>.abs(x):</b> </li>
-  <li><b>.acos(x):</b> </li>
-  <li><b>.asin(x):</b> </li>
-  <li><b>.atan(x):</b> </li>
-  <li><b>.atan2(y,x):</b> </li>
-  <li><b>.ceil(x):</b> </li>
-  <li><b>.cos(x):</b> </li>
-  <li><b>.exp(x):</b> </li>
-  <li><b>.floor(x):</b> </li>
-  <li><b>.log(x):</b> </li>
-  <li><b>.max(value(s)):</b> </li>
-  <li><b>.min(value(s)):</b> </li>
-  <li><b>.pow(base,exponent):</b> </li>
-  <li><b>.random():</b> </li>
-  <li><b>.round(x):</b> </li>
-  <li><b>.sin(x):</b> </li>
-  <li><b>.sqrt(x):</b> </li>
-  <li><b>.tan(x):</b> </li>
+  <li><b>.abs(x):</b> returns the absolute value of a number.</li>
+  <li><b>.acos(x):</b> returns the arccosine a.k.a inverse cosine (in radians) of a number.</li>
+  <li><b>.asin(x):</b> returns the arcsine a.k.a inverse sine (in radians) of a number.</li>
+  <li><b>.atan(x):</b> returns the arctangent (in radians) of a number. </li>
+  <li><b>.atan2(y,x):</b> returns the angle in the plane (in radians) between the positive x-axis and the ray from (0,0) to the point (x,y) for Math.atan2(y,x)</li>
+  <li><b>.ceil(x):</b> rounds a number up to the next largest integer.</li>
+  <li><b>.cos(x):</b> returns the cosine of the specific angle (in radians).</li>
+  <li><b>.exp(x):</b> returns e^x where x is the argument and e is the base of the natural log.</li>
+  <li><b>.floor(x):</b> returns the larger integer <= a given number x.</li>
+  <li><b>.log(x):</b> returns the natural logarithm (base e) of a number x.</li>
+  <li><b>.max(value(s)):</b> returns the largest of the number value(s).</li>
+  <li><b>.min(value(s)):</b> returns the lowest of the number value(s).</li>
+  <li><b>.pow(base,exponent):</b> returns the base to the exponent power.</li>
+  <li><b>.random():</b> returns a random number between 0 and 1.</li>
+  <li><b>.round(x):</b> returns the value of a number x rounded to the nearest integer.</li>
+  <li><b>.sin(x):</b> returns the sine of a number x.</li>
+  <li><b>.sqrt(x):</b> returns the square root of a number x.</li>
+  <li><b>.tan(x):</b> returns the tangent of a number x.</li>
 </ul>
 
 ---
