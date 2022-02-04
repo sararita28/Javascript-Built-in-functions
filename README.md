@@ -57,6 +57,7 @@ Note: There may be other ones and some of the ones listed here might become depr
  <ul>
   <li><b>.concat(arr):</b> merges 2+ arrays into new one.</li>
   <li><b>.every(callback):</b> tests whether all elements of an array pass the callback function's test.</li>
+  <li><b>.fill(value, start, end):</b> replaces elements in an array with the ' value' starting from start index till end. If start and end are not specified, the whole array will be changed. If end is not specified the array will be changed starting from 'start'.</li>
   <li><b>.filter(callback):</b> returns new array with all elements that pass the callback's test.</li>
   <li><b>.forEach(function):</b> executes a function for each element in the array.</li>
   <li><b>.indexOf(searchEl, fromIndex):</b> returns the 1st index at which a given element can be found. If 'fromIndex' is not specified, start index is 0.</li>
